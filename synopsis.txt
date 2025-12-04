@@ -1,48 +1,99 @@
-Project Synopsis: Secret Code Review Assistant Using Static Analysis
+# **FYP SYNOPSIS**
 
-Introduction and Motivation:
-In modern software development, code quality and maintainability are critical for both individual developers and teams. Python, being widely used for web development, data analysis, and automation, emphasizes readability and proper coding standards. However, even experienced developers can occasionally overlook subtle issues such as inconsistent indentation, improper formatting, or minor stylistic deviations. These issues, if unchecked, can lead to bugs, reduce code readability, and make maintenance more difficult.
+**Project Title:**
+**Secure Code Review Assistant Using Static Analysis (SAST) for Vulnerability Detection**
 
-This project aims to develop a Secret Code Review Assistant that leverages static analysis techniques to assist developers in maintaining high coding standards, particularly in Python. The goal is not just to automate error detection, but also to guide developers in understanding and resolving issues themselves, fostering deeper learning and better coding habits.
+**Student Name:**
+[Your Name] (LCID: XXXXXXX)
 
-Objectives:
-	1.	Enforce Coding Standards: Ensure Python code adheres to widely accepted standards, such as PEP8, focusing especially on indentation and formatting consistency.
-	2.	Provide Guidance and Hints: Instead of providing direct solutions, the assistant will offer constructive feedback and actionable hints, encouraging developers to reflect on and correct their own code.
-	3.	Flexible User Interaction: Developers will have the option to skip feedback and directly view solutions if necessary, allowing a balance between guided learning and quick problem resolution.
-	4.	Modular and Extensible Design: The system will be built to easily incorporate additional static analysis features in the future, such as bug detection, code complexity evaluation, and security vulnerability checks.
+**Degree:**
+Bachelor of Computer Science (Honours) – Network Technology & Cyber Security
 
-Tools and Libraries:
-To achieve these objectives, the project will explore several Python libraries and tools known for their static analysis capabilities:
-	•	Pylint: A comprehensive linter that checks coding standards, identifies errors, and suggests improvements.
-	•	Flake8: Focused on style guide enforcement and catching common formatting issues.
-	•	Black: A code formatter that ensures uniform code style across a project, particularly useful for enforcing consistent indentation.
-	•	Autopep8: Automatically formats code to comply with PEP8 standards, addressing indentation, spacing, and other style concerns.
+**Institution:**
+Faculty of Computer Science in Multimedia, Lincoln University College, Malaysia
 
-The final choice of tools will depend on evaluating their strengths, compatibility, and ability to integrate seamlessly into the assistant’s workflow.
+**Date:**
+[Month, Year]
 
-Methodology and Workflow:
-The assistant will function in a structured pipeline:
-	1.	Input Handling: Users will provide Python source code files to the assistant.
-	2.	Static Analysis Execution: The chosen tools will analyze the code, checking for formatting issues, indentation inconsistencies, and adherence to coding standards.
-	3.	Feedback Generation: Based on the analysis, the assistant will generate detailed feedback, highlighting areas that need improvement and suggesting potential solutions. This feedback will prioritize hints and explanations rather than direct answers, promoting critical thinking.
-	4.	Optional Direct Solutions: Users can choose to view direct corrections if they are stuck, enabling a balance between learning and efficiency.
-	5.	Reporting: The assistant will produce structured reports summarizing all findings, providing a clear overview of code quality and areas for improvement.
+---
 
-Expected Outcomes and Benefits:
-The Secret Code Review Assistant is expected to:
-	•	Improve code readability, maintainability, and overall quality.
-	•	Help developers quickly identify and correct common issues, particularly indentation errors.
-	•	Encourage developers to think critically about their code, enhancing problem-solving skills and independent learning.
-	•	Serve as an educational tool that supports developers at different skill levels, from beginners to advanced users.
-	•	Provide actionable metrics to measure success, including reductions in recurring code errors, time saved in debugging, and user satisfaction based on the helpfulness of feedback.
+## **Overview**
 
-Impact and Future Scope:
-While the initial focus is on enforcing coding standards in Python, the assistant is designed to be modular and extensible. Future enhancements may include:
-	•	Expanding support to multiple programming languages, such as JavaScript or Java.
-	•	Incorporating security checks and vulnerability detection.
-	•	Adding code complexity analysis and optimization suggestions.
-	•	Integrating with IDEs or version control systems for real-time feedback during development.
+This project presents a security-focused **Static Application Security Testing (SAST)** tool designed to detect vulnerabilities in Python source code. The system performs automated static analysis to identify insecure coding patterns, enforce secure coding standards, and map findings to industry security frameworks such as **OWASP Top 10**, **CWE**, and **MITRE ATT&CK**. The tool generates structured reports highlighting severity levels, mitigation suggestions, and evidence for each detected vulnerability. By integrating directly into the development workflow, it strengthens defensive security measures and reduces the risk of exploitable code reaching production environments.
 
-Conclusion:
-The Secret Code Review Assistant aims to be more than a simple linting tool. By providing insightful feedback, hints, and flexible guidance, it will help developers maintain high-quality code while improving their understanding and coding skills. Its success will be measured not only by its ability to detect issues but also by its effectiveness in empowering developers and enhancing their learning experience.
+---
 
+## **Problem Statement**
+
+Many developers inadvertently introduce security vulnerabilities, including insecure input handling, weak cryptographic implementation, and improper validation. Traditional code reviews are time-consuming and error-prone, often failing to catch critical security issues. There is a pressing need for an automated, ethical, and safe mechanism to detect such vulnerabilities during development, provide actionable guidance, and enforce secure coding practices.
+
+---
+
+## **Objectives**
+
+**General Objective:**
+To develop a security-focused static analysis assistant that automatically identifies vulnerabilities and strengthens the security posture of software during development.
+
+**Specific Objectives:**
+
+1. Implement static code analysis techniques to detect common security vulnerabilities in Python code.
+2. Map detected issues to **OWASP Top 10**, **CWE**, and **MITRE ATT&CK** for standard-based reporting.
+3. Generate structured security reports with severity classification and mitigation guidance.
+4. Provide a secure, ethical, and reproducible testing environment.
+5. Evaluate the tool’s accuracy, reliability, and usability in a controlled lab setting.
+
+---
+
+## **Scope of Study**
+
+* **Language Focus:** Python.
+* **Security Focus:** Detection of vulnerabilities via static analysis (SAST).
+* **Exclusions:** Dynamic analysis, actual exploitation, or hacking of live systems.
+* **Environment:** Fully isolated lab setup on virtual machines (Ubuntu/Kali Linux).
+* **Deliverables:** Analysis results, security reports, logs, screenshots, and optional CLI/GUI interface.
+
+---
+
+## **Methodology**
+
+1. **Security Workflow:**
+
+   * Input Python source code
+   * Run static analysis using **Bandit, Pylint, Flake8**
+   * Identify insecure patterns, vulnerabilities, and rule violations
+   * Classify findings by severity and map to standard frameworks
+
+2. **Threat Modeling:**
+
+   * STRIDE-based threat assessment
+   * OWASP Top 10 mapping
+   * Attack surface identification
+
+3. **Evidence Collection:**
+
+   * Logs, screenshots, JSON/CSV reports
+   * Structured reporting with severity levels
+
+4. **Tools & Platforms:**
+
+   * Python (3.x)
+   * Bandit, Pylint, Flake8, AutoPEP8
+   * Ubuntu / Kali Linux VMs
+   * Optional CLI/GUI for demonstration
+
+---
+
+## **Expected Outcomes**
+
+* A fully functional **Secure Code Review Assistant** capable of detecting security flaws in Python code.
+* Detailed security reports with evidence, severity classification, and mitigation recommendations.
+* Strengthened secure coding practices among developers.
+* A live demonstration-ready system suitable for FYP presentation and evaluation.
+
+---
+
+## **Significance of the Study**
+
+* Reduces security vulnerabilities in software development.
+* Provides hands-on learning experience in defensive security and secure coding.
+* Contributes to safer, more secure software development practices in real-world applications.
