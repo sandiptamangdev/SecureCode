@@ -9,18 +9,18 @@ Automated code review assistant for vulnerability detection using Python, Bandit
 
 ### [2025-12-15]
 **📚 What I Learned:**
-* 
+**Topic: Python File I/O – Basic Operations**
 
-**💻 What I Built:**
-* 
+**What I Did Today:**
+Practiced creating, reading, and appending to files in Python.
 
-**🐛 Challenges:**
-* 
+**Exercises**
 
-**✅ Tasks Completed:**
-* Task X: [description]
+- Create a file named example.txt and write "Hello World" to it.
+- open example.txt and read its content. Print it.
+- Append "Welcome to Python" to the same file.
 
-**⏱️ Time Spent:** ~ hours
+**⏱️ Time Spent:** ~ 1 hours
 
 **🔒 Security Findings:**
 * 
