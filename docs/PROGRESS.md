@@ -27,25 +27,17 @@ Practiced creating, reading, and appending to files in Python.
 
 ---
 
-### [YYYY-MM-DD]
+### [2025-12-16]
 **📚 What I Learned:**
-* 
+- File input output operation.
 
 **💻 What I Built:**
-* 
+- completed from Q4 to Q8
 
 **🐛 Challenges:**
-* 
+- Reading 1 character at a time
 
-**✅ Tasks Completed:**
-* Task X: [description]
-
-**⏱️ Time Spent:** ~ hours
-
-**🔒 Security Findings:**
-* 
-
----
+**⏱️ Time Spent:** NaN
 
 ## 📋 Project Tasks Checklist
 
