@@ -2,7 +2,7 @@
 # Read all lines into a list and print the list.
 
 with open("number.txt", "r") as f:
-    # readlines is a built in method of file object  in python.
+    # readlines is a built in method of file object in python.
     # It's job basically is to make a list of the each line into a string of the list.
     # It also adds the \n in the list which can be removed with strip().
 

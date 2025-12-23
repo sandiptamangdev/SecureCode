@@ -22,9 +22,6 @@ Practiced creating, reading, and appending to files in Python.
 
 **⏱️ Time Spent:** ~ 1 hours
 
-**🔒 Security Findings:**
-* 
-
 ### [2025-12-16]
 **📚 What I Learned:**
 - File input output operation.
@@ -37,7 +34,7 @@ Practiced creating, reading, and appending to files in Python.
 
 **⏱️ Time Spent:** NaN
 
-### [2025-12-16]
+### [2025-12-17]
 **📚 What I Learned:**
 - File input output operation.
 
@@ -46,7 +43,7 @@ Practiced creating, reading, and appending to files in Python.
 
 **⏱️ Time Spent:** NaN
 
-### [2025-12-16]
+### [2025-12-18]
 **📚 What I Learned:**
 - File input output operation.
 
@@ -58,7 +55,7 @@ Practiced creating, reading, and appending to files in Python.
 
 **⏱️ Time Spent:** NaN
 
-### [2025-12-16]
+### [2025-12-19]
 **📚 What I Learned:**
 - File input output operation.
 
@@ -66,6 +63,15 @@ Practiced creating, reading, and appending to files in Python.
 - completed from Q11
 
 **⏱️ Time Spent:** 1 hour
+
+### [2025-12-23]
+**📚 What I Learned:**
+**Topic: Exception Handeling**
+
+**What I Did Today:**
+Practiced Exception Handeling in Python.
+
+**⏱️ Time Spent:** ~ 1:11 hours
 
 ## 📋 Project Tasks Checklist
 
