@@ -73,6 +73,15 @@ Practiced Exception Handeling in Python.
 
 **⏱️ Time Spent:** ~ 1:11 hours
 
+### [2025-12-24]
+**📚 What I Learned:**
+**Topic: Exception Handeling**
+
+**What I Did Today:**
+Practiced Exception Handeling in Python.
+
+**⏱️ Time Spent:** ~ 2 hours
+
 ## 📋 Project Tasks Checklist
 
 ### Phase 1: Environment Setup & Foundation ✅ COMPLETED
