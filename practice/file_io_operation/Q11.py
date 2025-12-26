@@ -14,11 +14,13 @@
 
 with open("source.txt", "r") as f:
     lines = f.readlines()
+    print(lines)
 
 lines.reverse()
 
-with open("source.txt", "w", encoding="UTF-8") as f:
-    f.writelines(lines)
+with open("destination.txt", "w", encoding="UTF-8") as f:
+    content = f.writelines(lines)
+    # print(content)
 
 # with open("source.txt", "a") as f:
 #     f.write("\npraise the fool")
